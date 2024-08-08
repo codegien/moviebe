@@ -9,8 +9,9 @@ const {
 const { register, login } = require("../controller/auth.controller");
 
 // Register route with register validation
-router.post("/register", registerValidation, register);
+// router.post("/register", registerValidation, register);
+router.post("/register", register);
 // Login route with login validation
-router.post("/login", loginValidation, login);
+router.post("/login", login);
 
 module.exports = router;
