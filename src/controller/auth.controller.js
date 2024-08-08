@@ -101,6 +101,7 @@ const login = asyncHandler(async (req, res) => {
 				return res.status(200).json({
 					accessToken: jwtToken,
 					userId: getUser.userId,
+					username: getUser.name,
 					message: "login successful",
 				});
 			}
