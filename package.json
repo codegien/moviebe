@@ -34,7 +34,10 @@
     "path": "^0.12.7",
     "stripe": "^15.8.0",
     "supertest": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
     "uuid": "^9.0.1",
-    "validatorjs": "^3.22.1"
+    "validatorjs": "^3.22.1",
+    "yamljs": "^0.3.0"
   }
 }
