@@ -1,6 +1,6 @@
 {
   "watch": ["index.js", "swagger.yml"],
-  "ext": "js,yml,json",
+  "ext": "js,yml",
   "ignore": ["node_modules/"],
   "exec": "node index.js"
 }

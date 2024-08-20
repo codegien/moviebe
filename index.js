@@ -23,9 +23,9 @@ app.get("/", (req, res) => {
 app.use("/api/v1/auth", auth);
 app.use("/api/v1/movies", movies);
 // app.post("/login", loginValidation, login);
-app.get("/products", (req, res) => {
-	res.send(products);
-});
+// app.get("/products", (req, res) => {
+// 	res.send(products);
+// });
 
 connectDB();
 app.listen(process.env.PORT, () => {
